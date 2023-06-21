@@ -5,9 +5,9 @@
 #include "stackops.h"
 
 /**
- * get - get functins
- * @opcode: intstruction opcode
- * Return: void
+ * get - the get functins
+ * @opcode: the intstruction opcode
+ * Return: always void
  */
 __local
 void (*get(char *opcode))(stack_t **stack, uint line_number)
@@ -41,10 +41,10 @@ void (*get(char *opcode))(stack_t **stack, uint line_number)
 }
 
 /**
- * handler - main handler
- * @ac: ref main
- * @av: ref main
- * Return: ref main
+ * handler - the main handler
+ * @ac: the ref main
+ * @av: the ref main
+ * Return: the ref main
  */
 __local int handler(int ac, char **av)
 {

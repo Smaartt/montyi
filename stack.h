@@ -1,7 +1,7 @@
 #ifndef _STACK_OPS_H
 #define _STACK_OPS_H
 
-#include "b_stackops.h"
+#include "pint.c"
 
 /**
  * _mod - stack op mod

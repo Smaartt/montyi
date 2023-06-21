@@ -4,10 +4,10 @@
 #include "monty.h"
 
 /**
- * push_stack - add a node to the head of a list
- * @head: pointer to head
- * @n: new node to add
- * Return: new list
+ * push_stack - it add a node to the head of a list
+ * @head: the pointer to head
+ * @n: the new node to add
+ * Return: the new list
  */
 __local stack_t *push_stack(stack_t **head, const int n)
 {
@@ -31,8 +31,8 @@ __local stack_t *push_stack(stack_t **head, const int n)
 }
 
 /**
- * free_dlistint - Frees a linked stack_t list.
- * @head: The head of the stack_t list.
+ * free_dlistint - it Frees a linked stack_t list.
+ * @head: its The head of the stack_t list.
  */
 __local void empty_stack(stack_t *head)
 {
@@ -47,8 +47,8 @@ __local void empty_stack(stack_t *head)
 }
 
 /**
- * pop_stack - deletes node at end of doubly linked list
- * @h: pointer to head of doubly linked list
+ * pop_stack - it deletes node at end of doubly linked list
+ * @h: the pointer to head of doubly linked list
  */
 void pop_stack(stack_t **h)
 {
@@ -69,9 +69,9 @@ void pop_stack(stack_t **h)
 }
 
 /**
- * print_dlistint - print doubly linked list
- * @h: list
- * Return: number of nodes
+ * print_dlistint - it print doubly linked list
+ * @h: the list
+ * Return: the number of nodes
  */
 __local size_t pall_stack(const stack_t *h)
 {
@@ -84,12 +84,12 @@ __local size_t pall_stack(const stack_t *h)
 }
 
 /**
- * push_queue - Adds a new node at the end of a list.
- * @head: A pointer to the head of the list.
- * @n: The integer for the new node to contain.
+ * push_queue - it Adds a new node at the end of a list.
+ * @head: its A pointer to the head of the list.
+ * @n: its The integer for the new node to contain.
  *
- * Return: If the function fails - NULL.
- *	Otherwise - the address of the new node.
+ * Return: If the function fails - return NULL.
+ *	Otherwise - return the address of the new node.
  */
 __local stack_t *push_queue(stack_t **head, const int n)
 {

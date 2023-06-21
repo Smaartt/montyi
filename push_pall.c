@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * push - stack op push
- * @stack: stack
- * @line_number: line number
+ * push - its the stack op push
+ * @stack: the stack
+ * @line_number: the line number
  */
 __local void push(stack_t **stack, uint line_number)
 {

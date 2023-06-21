@@ -1,12 +1,12 @@
 #ifndef B_STACK_OPS_H
 #define B_STACK_OPS_H
 
-#include "a_stackops.h"
+#include "push_pall.c"
 
 /**
- * _add - stack op add
- * @stack: stack
- * @line_number: line number
+ * _add - the stack op add
+ * @stack: the stack
+ * @line_number: the line number
  */
 __local void _add(stack_t **stack, uint line_number)
 {

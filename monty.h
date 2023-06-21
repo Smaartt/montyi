@@ -22,9 +22,9 @@
 typedef unsigned int uint;
 
 /**
- * enum modes - operation modes
- * @STACK: stack mode
- * @QUEUE: queue mode
+ * enum modes - the eeeeeeeeeeeeoperation modes
+ * @STACK: the stack mode
+ * @QUEUE: the queue mode
  */
 enum modes
 {
@@ -32,12 +32,12 @@ enum modes
 	QUEUE
 };
 /**
- * struct state_s - state variable
- * @delim: delim
- * @token: token
- * @fp: file pointer
- * @line: file line
- * @mode: operation mode
+ * struct state_s - the state variable
+ * @delim: the delim
+ * @token: the token
+ * @fp: the file pointer
+ * @line: the file line
+ * @mode: the operation mode
  */
 typedef struct state_s
 {
@@ -49,12 +49,12 @@ typedef struct state_s
 } state_t;
 
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - the doubly linked list representation of a stack (or queue)
  * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ * @prev: it points to the previous element of the stack (or queue)
+ * @next: it points to the next element of the stack (or queue)
  *
- * Description: doubly linked list node structure
+ * Description: the doubly linked list node structure
  * for stack, queues, LIFO, FIFO
  */
 typedef struct stack_s
@@ -65,11 +65,11 @@ typedef struct stack_s
 } stack_t;
 
 /**
- * struct instruction_s - opcode and its function
- * @opcode: the opcode
- * @f: function to handle the opcode
+ * struct instruction_s - the opcode and its function
+ * @opcode: the opcodee
+ * @f: the function to handle the opcode
  *
- * Description: opcode and its function
+ * Description: the opcode and its function
  * for stack, queues, LIFO, FIFO
  */
 typedef struct instruction_s
@@ -88,9 +88,9 @@ state_t s = {
 
 
 /**
- * len - print doubly linked list
- * @h: list
- * Return: number of nodes
+ * len - it print doubly linked list
+ * @h: the list
+ * Return: the number of nodes
  */
 __local size_t len(const stack_t *h)
 {
@@ -103,9 +103,9 @@ __local size_t len(const stack_t *h)
 }
 
 /**
- * is_number - iterates each character of string to check of isdigit
- * @n: integer
- * Return: 0 if is number, else -1 if not
+ * is_number - it iterates each character of string to check of isdigit
+ * @n: the integer
+ * Return: returns 0 if is number, else -1 if not
  */
 __local int is_number(const char *n)
 {
